@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login_page"
+    android:orientation="vertical"
+    android:background="@drawable/background_flavour_signup"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="@dimen/_20ssp"
+        android:layout_marginTop="@dimen/_140sdp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/spacebold"
+        android:textColor="@color/Black"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Email"
+        android:layout_marginLeft="@dimen/_30ssp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:fontFamily="@font/spacemid"
+        android:textSize="@dimen/_15ssp"
+        android:textColor="@color/Black"
+        />
+
+    <EditText
+        android:id="@+id/logmail"
+        android:drawableLeft="@drawable/email"
+        android:drawablePadding="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:textColor="@color/Black"
+        android:layout_height="42dp"
+        android:layout_marginHorizontal="@dimen/_30sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@drawable/custom_edit_text"
+        android:hint="Enter Email"
+        android:fontFamily="@font/spaceregular"
+        android:textColorHint="@color/Black"
+        android:paddingLeft="@dimen/_10sdp"
+        android:inputType="text"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Your Password"
+        android:layout_marginLeft="@dimen/_30ssp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:fontFamily="@font/spacemid"
+        android:textSize="@dimen/_15ssp"
+        android:textColor="@color/Black"
+        />
+
+    <EditText
+        android:id="@+id/logpass"
+        android:drawableLeft="@drawable/password_vector"
+        android:drawablePadding="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginHorizontal="@dimen/_30sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@drawable/custom_edit_text"
+        android:hint="Enter Password"
+        android:textColor="@color/Black"
+        android:fontFamily="@font/spaceregular"
+        android:textColorHint="@color/Black"
+        android:paddingLeft="@dimen/_10sdp"
+        android:inputType="textPassword"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password?"
+        android:layout_marginLeft="@dimen/_160sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:fontFamily="@font/spacemid"
+        android:textSize="@dimen/_12ssp"
+        android:textColor="@color/Black"
+        android:id="@+id/forgottxt"
+        />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageButton
+            android:id="@+id/google"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_marginLeft="@dimen/_70sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:src="@drawable/google"
+            android:backgroundTint="#FDF6FE"
+            />
+
+        <ImageButton
+            android:id="@+id/fb"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_marginLeft="@dimen/_130sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:src="@drawable/facebook"
+            android:backgroundTint="#FDF6FE"
+            />
+
+        <ImageButton
+            android:id="@+id/twitter"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_marginLeft="@dimen/_190sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:src="@drawable/twitter"
+            android:backgroundTint="#FDF6FE"
+            />
+
+    </FrameLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_gravity="center"
+        android:text="Login"
+        android:textColor="@color/White"
+        android:textSize="@dimen/_15sdp"
+        android:fontFamily="@font/spacebold"
+        android:backgroundTint="@color/Black"
+        android:id="@+id/btnlogin"
+        />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:fontFamily="@font/spacemid"
+            android:text="Don't have an account?"
+            android:textColor="@color/Black"
+            android:textSize="@dimen/_10ssp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_130sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:fontFamily="@font/spacemid"
+            android:text="Sign Up now"
+            android:textColor="@color/DarkGreen"
+            android:textSize="@dimen/_10ssp"
+            android:id="@+id/signupnow"
+            />
+
+    </FrameLayout>
+
+</LinearLayout>

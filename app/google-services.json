@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "545567581426",
+    "project_id": "flavorquest-410114",
+    "storage_bucket": "flavorquest-410114.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:545567581426:android:ed756027f05e2948fa9c6b",
+        "android_client_info": {
+          "package_name": "com.example.flavorquest"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmFL3gSvxV503j-IUL4eZ11V6HjDU7h50"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

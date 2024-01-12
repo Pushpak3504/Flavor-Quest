@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Flavor Quest</string>
+    <string name="title_activity_bottom_nav">BottomNav</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="google_maps_key">AIzaSyDoz15y2AvgiP_p1YkCbnl2Q934xGhqdXs</string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>
